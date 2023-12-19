@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @entry.color %>
+</p>
+
+<p>
+  <strong>Difficulty:</strong>
+  <%= @entry.difficulty %>
+</p>
+
+<p>
+  <strong>Attempts:</strong>
+  <%= @entry.attempts %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @entry.notes %>
+</p>
+
+<%= link_to 'Edit', edit_entry_path(@entry) %> |
+<%= link_to 'Back', entries_path %>
