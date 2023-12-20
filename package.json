@@ -2,6 +2,7 @@
   "name": "typer",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-methods": "^7.18.6",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
@@ -12,6 +13,9 @@
   },
   "version": "0.1.0",
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "install": "^0.13.0",
+    "npm": "^10.2.5",
     "webpack-dev-server": "^3"
   }
 }
