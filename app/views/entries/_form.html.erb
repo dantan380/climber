@@ -12,26 +12,26 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :color %>
-    <%= form.text_field :color %>
+    <%= form.label :color, class: "label" %>
+    <%= form.text_field :color, class: "input" %>
   </div>
 
   <div class="field">
-    <%= form.label :difficulty %>
-    <%= form.number_field :difficulty %>
+    <%= form.label :difficulty, class: "label" %>
+    <%= form.number_field :difficulty, class: "input" %>
   </div>
 
   <div class="field">
-    <%= form.label :attempts %>
-    <%= form.number_field :attempts %>
+    <%= form.label :attempts, class: "label" %>
+    <%= form.number_field :attempts, class: "input" %>
   </div>
 
   <div class="field">
-    <%= form.label :notes %>
-    <%= form.text_field :notes %>
+    <%= form.label :notes, class: "label" %>
+    <%= form.text_field :notes, class: "input mb-4" %>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit class: "button-is-success" %>
   </div>
 <% end %>
